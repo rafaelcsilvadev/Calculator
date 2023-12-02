@@ -24,7 +24,7 @@ namespace Calculator
             Console.WriteLine("--------------------");
 
             Console.Write("Seleciona uma opção: ");
-            short res = short.Parse(Console.ReadLine());
+            short res = short.Parse(Console.ReadLine()!);
 
             switch(res){
                 case 1: Soma(); break;
@@ -39,10 +39,10 @@ namespace Calculator
             Console.Clear();
 
             Console.Write("Primeiro valor: ");
-            float v1 = float.Parse(Console.ReadLine());
+            float v1 = float.Parse(Console.ReadLine()!);
 
             Console.Write("Segundo valor: ");
-            float v2 = float.Parse(Console.ReadLine());
+            float v2 = float.Parse(Console.ReadLine()!);
 
             float resultado = v1 + v2;
             Console.WriteLine($"O Resultado da soma é: {resultado}");
@@ -54,10 +54,10 @@ namespace Calculator
             Console.Clear();
 
             Console.Write("Primeiro valor: ");
-            float v1 = float.Parse(Console.ReadLine());
+            float v1 = float.Parse(Console.ReadLine()!);
 
             Console.Write("Segundo valor: ");
-            float v2 = float.Parse(Console.ReadLine());
+            float v2 = float.Parse(Console.ReadLine()!);
 
             float resultado = v1 - v2;
             Console.WriteLine($"O Resultado da soma é: {resultado}");
@@ -69,10 +69,10 @@ namespace Calculator
             Console.Clear();
 
             Console.Write("Primeiro valor: ");
-            float v1 = float.Parse(Console.ReadLine());
+            float v1 = float.Parse(Console.ReadLine()!);
 
             Console.Write("Segundo valor: ");
-            float v2 = float.Parse(Console.ReadLine());
+            float v2 = float.Parse(Console.ReadLine()!);
 
             float resultado = v1 / v2;
             Console.WriteLine($"O Resultado da soma é: {resultado}");
@@ -84,10 +84,10 @@ namespace Calculator
             Console.Clear();
 
             Console.Write("Primeiro valor: ");
-            float v1 = float.Parse(Console.ReadLine());
+            float v1 = float.Parse(Console.ReadLine()!);
 
             Console.Write("Segundo valor: ");
-            float v2 = float.Parse(Console.ReadLine());
+            float v2 = float.Parse(Console.ReadLine()!);
 
             float resultado = v1 * v2;
             Console.WriteLine($"O Resultado da soma é: {resultado}");
