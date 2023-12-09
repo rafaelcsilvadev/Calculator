@@ -9,7 +9,7 @@
 </p>
 
 <h4 align="center"> 
-	🚀 Stopwatch 🚀 Em evolução...  🚀
+	🚀 Calculator 🚀 Em evolução...  🚀
 </h4>
 
 <h3 align="left" id="pre-requisitos">Pré-requisitos</h3>
